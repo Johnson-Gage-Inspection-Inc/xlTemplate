@@ -32,14 +32,14 @@ You may set the other variables however you like, as they just correspond to the
 
 ```
 C:.
-│   .env     # Configuration file, where you'll set 
-│   .gitattributes
-│   .gitignore
+│   .env                     # Configuration file, where you'll set the Qualer variables for the particular Excel file
+│   .gitattributes           # This tells your system to use git xl for simple diffs, if you have it
+│   .gitignore               # This ignores the temporary files that Excel creates when you edit an workbook.
 │
 └───.github
     └───workflows
-            MR-trigger.yml
-            PR-trigger.yml
+            MR-trigger.yml    # This runs the pre-merge checks
+            PR-trigger.yml    # This syncs the new version of your excel file to Qualer, 
 ```
 
 ## Workflow
