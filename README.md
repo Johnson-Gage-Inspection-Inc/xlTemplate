@@ -10,6 +10,7 @@ Any time you use this template, you'll need to configure it by setting the varia
 By default, the .env file will look something like this:
 ```
 SOP_ID=
+SOP_TYPE_ID=
 DOC_ID=
 DOC_TITLE=
 DOC_DETAILS=
